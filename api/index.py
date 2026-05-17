@@ -7,10 +7,10 @@ import base64
 
 class GameInfo:
     def __init__(self):
-        self.TitleId: str = "PLAYFABTITLEID"
-        self.SecretKey: str = "PLAYFABSECRETKEY"
-        self.ApiKey: str = "APPLABCREDENTIAL"
-        self.DiscordWebhookUrl: str = "YOURDISCORDWEBHOOK"
+        self.TitleId: str = "FF025"
+        self.SecretKey: str = "W3HF6KF6M71XGTSPTKSQAOFZGPFNBAIPIU7DXTHWPBJIYK5K43"
+        self.ApiKey: str = "OC|9464422760283094|e64f38666b1acc0c6672a6b8a83f1fee"
+        self.DiscordWebhookUrl: str = "https://discord.com/api/webhooks/1505703084200820876/j-ySi3VlOt0tB4qzdQ8TTZfSLeeVFQT6uyTPGlCj0xFQBo80lf9mxNdrgnDqGJN7SVUL"
 
     def get_auth_headers(self):
         return {"content-type": "application/json", "X-SecretKey": self.SecretKey}
@@ -318,21 +318,21 @@ def titledata():
                 ]
             }
         ],
-        "BundleBoardSign": "<color=#ff4141>DISCORD.GG/Vnkh3Hr9RE</color>",
-        "BundleKioskButton": "<color=#ff4141>DISCORD.GG/Vnkh3Hr9RE</color>",
-        "BundleKioskSign": "<color=#ff4141>DISCORD.GG/Vnkh3Hr9RE</color>",
-        "BundleLargeSign": "<color=#ff4141>DISCORD.GG/Vnkh3Hr9RE</color>",
+        "BundleBoardSign": "<color=#ff4141>DISCORD.GG/YgPKFtytMC</color>",
+        "BundleKioskButton": "<color=#ff4141>DISCORD.GG/YgPKFtytMC</color>",
+        "BundleKioskSign": "<color=#ff4141>DISCORD.GG/YgPKFtytMC</color>",
+        "BundleLargeSign": "<color=#ff4141>DISCORD.GG/YgPKFtytMC</color>",
         "EmptyFlashbackText": "FLOOR TWO NOW OPEN\n FOR BUSINESS\n\nSTILL SEARCHING FOR\nBOX LABELED 2021",
         "EnableCustomAuthentication": True,
         "GorillanalyticsChance": 4320,
         "LatestPrivacyPolicyVersion": "2024.09.20",
         "LatestTOSVersion": "2024.09.20",
-        "MOTD": "<color=#bb29ff>[ WELCOME TO ORIGINAL TAG REVIVED ]</color>\n <color=#07dde8>CHRISTMUH 23!</color>\n<color=#ffff00>CREATOR/FOUNDER : Z3N</color>\n<color=#969696>CREDITS TO: IRES, L1RSON, S4GE, SCREAMINGCAT, Z3N, RASP, TABLE</color>\n<color=#ff8800>DISCORD.GG/Vnkh3Hr9RE</color>\n<color=#000000>CHANGE YOUR NAME FROM oldgorilla AS IT'S BANNABLE!</color>",
-        "SeasonalStoreBoardSign": "<color=yellow>RATE THE GAME 5 STARS!</color>\n\n<color=aqua>.GG/Vnkh3Hr9RE",
-        "TOS_2024.09.20": "DISCORD.GG/Vnkh3Hr9RE",
-        "TOBAlreadyOwnCompTxt": "DISCORD.GG/Vnkh3Hr9RE",
+        "MOTD": "<color=#bb29ff>[ WELCOME TO PROJECT UNTITLED ]</color>\n <color=#07dde8>NOWRUZ 2024!</color>\n<color=#ffff00>CREATOR/FOUNDER : HARMONY</color>\n<color=#969696>CREDITS TO: HARMONY TABLE</color>\n<color=#ff8800>DISCORD.GG/YgPKFtytMC</color>\n<color=#000000>CHANGE YOUR NAME FROM oldgorilla AS IT'S BANNABLE!</color>",
+        "SeasonalStoreBoardSign": "<color=yellow>RATE THE GAME 5 STARS!</color>\n\n<color=aqua>.GG/YgPKFtytMC",
+        "TOS_2024.09.20": "DISCORD.GG/YgPKFtytMC",
+        "TOBAlreadyOwnCompTxt": "DISCORD.GG/YgPKFtytMC",
         "TOBAlreadyOwnPurchaseBundle": "RETRO",
-        "TOBDefCompTxt": "DISCORD.GG/Vnkh3Hr9RE",
+        "TOBDefCompTxt": "DISCORD.GG/YgPKFtytMC",
         "TOBDefPurchaseBtnDefTxt": "RETRO",
         "UseLegacyIAP": False
     }
